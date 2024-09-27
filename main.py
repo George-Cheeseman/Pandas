@@ -55,7 +55,7 @@ pd.set_option('display.float_format', '{:.0f}'.format) #Displays numbers with no
 
 population = worldPop[["Country","2022 Population"]]
 
-bottom10Population = population.nsmallest(10,"2022 Population")
+bottom10Population = population.nsmallest(10,"2022 Population")v 
 print(bottom10Population.to_string(index=False)) #Prints the result without index on the left """
 
 #Task 6
